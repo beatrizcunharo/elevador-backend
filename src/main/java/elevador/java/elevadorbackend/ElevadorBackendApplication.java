@@ -9,5 +9,4 @@ public class ElevadorBackendApplication {
     public static void main(String[] args) {
         SpringApplication.run(ElevadorBackendApplication.class, args);
     }
-
 }
