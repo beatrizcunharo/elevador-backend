@@ -18,7 +18,6 @@ public class HistoricoAndar {
     private int andar;
 
     @Column(name = "data_andar")
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime data;
 
     public HistoricoAndar() {

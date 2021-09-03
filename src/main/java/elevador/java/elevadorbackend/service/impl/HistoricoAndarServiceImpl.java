@@ -17,7 +17,7 @@ public class HistoricoAndarServiceImpl implements HistoricoAndarService {
 
     @Override
     public List<HistoricoAndar> buscarTodos() {
-        return historicoAndarRepository.findAll();
+        return historicoAndarRepository.findAllByOrderByDataDesc();
     }
 
     @Override
