@@ -26,8 +26,6 @@ public class HistoricoAndar {
         return id;
     }
 
-    public void setId(int id) { this.id = id; }
-
     public int getAndar() {
         return andar;
     }
