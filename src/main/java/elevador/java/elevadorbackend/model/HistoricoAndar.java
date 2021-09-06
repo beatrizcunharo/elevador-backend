@@ -1,7 +1,5 @@
 package elevador.java.elevadorbackend.model;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
@@ -27,6 +25,8 @@ public class HistoricoAndar {
     public int getId() {
         return id;
     }
+
+    public void setId(int id) { this.id = id; }
 
     public int getAndar() {
         return andar;

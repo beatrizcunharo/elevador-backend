@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface HistoricoAndarRepository extends JpaRepository<HistoricoAndar, Long> {
     List<HistoricoAndar> findAllByOrderByDataDesc();
+
 }
